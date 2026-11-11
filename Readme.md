@@ -458,7 +458,7 @@ Expected behaviour:
 
 ## Design Documentation
 
-For architectural decisions, trade-offs, implementation details and future improvements, see [DESIGN.md](./DESIGN.md).
+For architectural decisions, trade-offs, implementation details and future improvements, see [DESIGN.md](./Design.md).
 
 ## Author
 
