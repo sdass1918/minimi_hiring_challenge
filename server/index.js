@@ -1,11 +1,14 @@
-const express = require('express');
+const dotenv = require("dotenv");
+const { app } = require("./src/app.js");
 
-const app = new express();
+dotenv.config();
 
-app.use(express.json());
+const PORT = process.env.PORT || 3000;
 
-app.get('/', (req, res) => {
-	res.status(200).send("Hii there!");
-})
+const server = app.listen(PORT, () => {
+  console.log(`Minimi server running on http://localhost:${PORT}`);
+});
 
-app.listen(3000);
+server.on("error", (error) => {
+  console.error("Server error:", error);
+});
