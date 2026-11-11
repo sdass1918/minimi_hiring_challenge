@@ -430,13 +430,13 @@ Expected behaviour:
 
 ## Screenshots
 
-![Description of screenshot](./public/ss1.png)
+![Description of screenshot](./server/public/ss1.png)
 
-![Description of screenshot](./public/ss2.png)
+![Description of screenshot](./server/public/ss2.png)
 
-![Description of screenshot](./public/ss3.png)
+![Description of screenshot](./server/public/ss3.png)
 
-![Description of screenshot](./public/ss4.png)
+![Description of screenshot](./server/public/ss4.png)
 
 ## Current Limitations
 
